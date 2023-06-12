@@ -1,5 +1,7 @@
 import './App.css';
 import ZeroLogo from './imagenes/imagen-zero.jpg';
+import Boton from './componentes/Boton';
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +12,9 @@ function App() {
         alt='logo de zero' />
       </div>
       <div className='contenedor-principal'>
-        |
+        <Boton>
+
+        </Boton>
       </div>
     </div>
   );
